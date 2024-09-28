@@ -1,0 +1,26 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side > button {
+  padding: 10px;
+  margin: 5px;
+  border: 0px;
+  cursor: pointer;
+}
+
+.left-side > button:active {
+  border-color: lightblue;
+}
+
+.left-side,
+.right-side {
+  padding: 20px;
+}
